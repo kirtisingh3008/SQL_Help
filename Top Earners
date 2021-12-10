@@ -1,0 +1,7 @@
+LINK - https://www.hackerrank.com/challenges/earnings-of-employees/problem
+
+/*
+Enter your query here.
+*/
+select (salary * months) as earnings, count(*) from Employee
+group by earnings order by earnings desc limit 1;
