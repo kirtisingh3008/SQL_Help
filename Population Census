@@ -3,3 +3,9 @@ LINK - https://www.hackerrank.com/challenges/asian-population/problem
 select sum(city.population) from 
 city ,country where 
 city.countrycode = country.code and country.continent='ASIA';
+
+LINK - https://www.hackerrank.com/challenges/african-cities/problem
+select city.NAME
+from city ,country
+where city.countrycode = country.code and country.continent='Africa';
+
